@@ -1,0 +1,24 @@
+body {
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    color:white;
+    text-align: center;
+}
+
+.recipes {
+    text-align:center;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+

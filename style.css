@@ -20,22 +20,33 @@ a {
     text-decoration: none;
 }
 
-.back-button {
-    text-align: center;
-    margin-top:5px;
+.back-button-div {
+  text-align: center;
 }
+
+.back-button-h3 {
+    display: inline-block;
+}
+
 
 h1 {
     margin-bottom:0;
 }
 
-img {
-    
+.ingredients,
+.steps,
+.back-button-h3 {
+    background-color: rgb(255, 195, 83);
+    padding:10px;
+    border-radius: 2em;
 }
 
-.desc {
-
+.steps {
+    margin-top:20px;
 }
+
+
+
 
 
 

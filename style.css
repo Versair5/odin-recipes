@@ -1,10 +1,23 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/QuicksandLight-Regular.eot');
+    src: url('./fonts/QuicksandLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/QuicksandLight-Regular.woff2') format('woff2'),
+        url('./fonts/QuicksandLight-Regular.woff') format('woff'),
+        url('./fonts/QuicksandLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    background-color: orange;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(1, 51, 179);
+    font-family:"Quicksand";
+    color:white;
+    text-shadow: black 510px;
 }
 
 .title {
-    color:white;
     text-align: center;
 }
 
@@ -13,11 +26,12 @@ body {
     list-style-type: none;
     font-size: 25px;
     padding: 0;
+    font-weight: bold;
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color:white;
 }
 
 .back-button-div {
@@ -36,13 +50,28 @@ h1 {
 .ingredients,
 .steps,
 .back-button-h3 {
-    background-color: rgb(255, 195, 83);
+    background-color: rgb(32, 136, 255);
     padding:10px;
     border-radius: 2em;
 }
 
 .steps {
     margin-top:20px;
+}
+
+.desc {
+    color:white;
+    font-weight: bold;
+}
+
+.list-text {
+    color:white;
+    font-weight:bold;
+}
+
+img {
+    border: white solid 5px;
+    border-radius: 2em;
 }
 
 

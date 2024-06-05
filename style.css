@@ -41,12 +41,48 @@ img {
     margin: auto;
 }
 
-a {
+ a {
     text-decoration: none;
     color: black;
+ }
+
+ .back-button-div a {
+    border: solid black 2px;
+    padding:10px;
 }
 
 .back-button-div {
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.ingredients,
+.steps {
+    border: solid 2px black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-decoration:underline 2px;
+}
+
+.recipes {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    padding:0;
+}
+
+.recipes li {
+    padding:3.5px;
+}
+
+.title {
+    text-decoration:none;
+    font-weight: 1000;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-left:30%;
+    margin-right:30%;
 }
